@@ -1,0 +1,15 @@
+[packages]
+fastapi = "*"
+uvicorn = "*"
+prometheus_client = "*"
+starlette_exporter = "*"
+python-json-logger = "*"
+
+[dev-packages]
+mypy = "*"
+pytest = "<5.1"
+pytest-flake8 = "*"
+pytest-mock = "*"
+pytest-mypy = "*"
+isort = ">=5.0.0, <6.0.0"
+flake8 = "*"
